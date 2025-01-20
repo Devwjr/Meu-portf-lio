@@ -52,7 +52,6 @@ footer {
   font-family: 'Poppins', sans-serif;
 }
 
-.about .about-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content {
@@ -88,7 +87,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color: rgb(12, 23, 116);
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -106,7 +105,7 @@ section .title::after {
 
 .navbar.sticky {
   padding: 15px 0;
-  background: crimson;
+  background:  rgb(12, 23, 116);
 }
 
 .navbar .max-width {
@@ -122,7 +121,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-  color: crimson;
+  color:  rgb(12, 23, 116);
   transition: all 0.3s ease;
 }
 
@@ -145,7 +144,7 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-  color: crimson;
+  color:  rgb(12, 23, 116);
 }
 
 .navbar.sticky .menu li a:hover {
@@ -164,7 +163,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background:  rgb(12, 23, 116);
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -229,42 +228,26 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-  color: crimson;
+  color:  rgb(12, 23, 116);
   font-weight: 500;
 }
 
 .home .home-content a {
   display: inline-block;
-  background: crimson;
+  background:  rgb(12, 23, 116);
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid  rgb(12, 23, 116);
   transition: all 0.3s ease;
 }
 
 .home .home-content a:hover {
-  color: crimson;
+  color:  rgb(12, 23, 116);
   background: none;
-}
-
-
-.about .title::after {
-  content: "";
-}
-
-.about .about-content .left {
-  width: 45%;
-}
-
-.about .about-content .left img {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
 }
 
 .about .about-content .right {
@@ -278,28 +261,24 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-  color: crimson;
-}
-
-.about .about-content .right p {
-  text-align: justify;
+  color:  rgb(12, 23, 116);
 }
 
 .about .about-content .right a {
   display: inline-block;
-  background: crimson;
+  background:  rgb(12, 23, 116);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid  rgb(12, 23, 116);
   transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-  color: crimson;
+  color:  rgb(12, 23, 116);
   background: none;
 }
 
@@ -332,7 +311,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-  background: crimson;
+  background: black;
 }
 
 .services .serv-content .card .box {
@@ -345,7 +324,7 @@ section .title::after {
 
 .services .serv-content .card i {
   font-size: 50px;
-  color: crimson;
+  color:  rgb(12, 23, 116);
   transition: color 0.3s ease;
 }
 
@@ -373,7 +352,7 @@ section .title::after {
 }
 
 .teams .carousel .card:hover {
-  background: crimson;
+  background:  rgb(12, 23, 116);
 }
 
 .teams .carousel .card .box {
@@ -399,7 +378,7 @@ section .title::after {
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid crimson;
+  border: 5px solid  rgb(12, 23, 116);
   transition: all 0.3s ease;
 }
 
@@ -418,7 +397,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid crimson !important;
+  border: 2px solid  rgb(12, 23, 116) !important;
   transition: all 0.3s ease;
 }
 
@@ -429,7 +408,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-  background: crimson !important;
+  background:  rgb(12, 23, 116) !important;
 }
 
 .contact .contact-content .column {
@@ -450,99 +429,6 @@ section .title::after {
   margin: 10px 0;
 }
 
-.contact .contact-content .row {
-  display: flex;
-  height: 65px;
-  align-items: center;
-}
-
-.contact .contact-content .row .info {
-  margin-left: 30px;
-}
-
-.contact .contact-content .row i {
-  font-size: 25px;
-  color: crimson;
-}
-
-.contact .contact-content .info .head {
-  font-weight: 500;
-}
-
-.contact .contact-content .info .sub-title {
-  color: #333;
-}
-
-.contact .right form .fields {
-  display: flex;
-}
-
-.contact .right form .field,
-.contact .right form .fields .field {
-  height: 45px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.contact .right form .textarea {
-  height: 80px;
-  width: 100%;
-}
-
-.contact .right form .name {
-  margin-right: 10px;
-}
-
-.contact .right form .field input,
-.contact .right form .textarea textarea {
-  height: 100%;
-  width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 6px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif;
-  transition: all 0.3s ease;
-}
-
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus {
-  border-color: #b3b3b3;
-}
-
-.contact .right form .textarea textarea {
-  padding-top: 10px;
-  resize: none;
-}
-
-.contact .right form .button-area {
-  display: flex;
-  align-items: center;
-}
-
-.right form .button-area button {
-  color: #fff;
-  display: block;
-  width: 160px !important;
-  height: 45px;
-  outline: none;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
-  transition: all 0.3s ease;
-}
-
-.right form .button-area button:hover {
-  color: crimson;
-  background: none;
-}
-
-
 footer {
   background: #111;
   padding: 15px 23px;
@@ -551,7 +437,7 @@ footer {
 }
 
 footer span a {
-  color: crimson;
+  color:  rgb(12, 23, 116);
   text-decoration: none;
 }
 
@@ -655,7 +541,7 @@ footer span a:hover {
 
 .skill {
   display: flex;
-  flex-direction: column; 
+  flex-direction:  row;
   align-items: center; 
   justify-content: center;
   background-color: #f4f4f4; 
@@ -668,8 +554,8 @@ footer span a:hover {
 }
 
 .skill:hover {
-  transform: scale(1.1); /* Efeito de zoom no hover */
-  background-color: #eaeaea; /* Fundo muda de cor no hover */
+  transform: scale(1.1); 
+  background-color: #eaeaea; 
 }
 
 .skill i {
@@ -717,6 +603,37 @@ footer span a:hover {
 }
 
 
+.buttons {
+  display: inline-block;
+  background:  rgb(12, 23, 116);
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 16px;
+  border: 2px solid  rgb(12, 23, 116);
+  transition: all 0.3s ease;
+}
+   
+}
+
+.btn {
+display: inline-block;
+margin-right: 10px;
+padding: 8px 16px;
+background-color:  rgb(12, 23, 116);
+color: #fff;
+text-decoration: none;
+border-radius: 16px;
+transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+background-color:  rgb(12, 23, 116);
+
+}
+
 @media (max-width: 500px) {
   .home .home-content .text-2 {
     font-size: 50px;
@@ -733,19 +650,19 @@ footer span a:hover {
 
 .social-icons {
   display: flex;
-  gap: 15px;
+  gap: 25px;
   margin-top: 20px;
 }
 
 .social-icons a {
   text-decoration: none;
-  color: #333;
+  color: black;
   font-size: 24px;
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #007bff; 
+  color: black; 
 }
 
   .right form .error-box {
@@ -759,31 +676,11 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;}
-    
-    .buttons {
-  margin-top: 11px;
-  display: flex;
-  gap: 30px;
   
-}
-
-.btn {
-  display: inline-block;
-  margin-right: 10px;
-  padding: 8px 16px;
-  background-color: crimson;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: black;
-}
-@media (min-width: 1024px) {
-  .buttons {
-    justify-content: flex-start;
-    gap: 50px; 
+  @media (max-width: 1200px) {
+  .buttons, .btn {
+    font-size: 1.2em;
+    padding: 0.8em 2em;
   }
-  
+}
+}
