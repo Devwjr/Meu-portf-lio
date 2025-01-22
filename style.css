@@ -43,8 +43,8 @@ section {
   margin: auto;
 }
 
-.about,
-.services,
+.sobre,
+.servicos,
 .skills,
 .teams,
 .contact,
@@ -52,7 +52,7 @@ footer {
   font-family: 'Poppins', sans-serif;
 }
 
-.services .serv-content,
+.servicos .servico-conteudo,
 .skills .skills-content,
 .contact .contact-content {
   display: flex;
@@ -250,21 +250,21 @@ section .title::after {
   background: none;
 }
 
-.about .about-content .right {
+.sobre .sobre-content .right {
   width: 55%;
 }
 
-.about .about-content .right .text {
+.sobre .sobre-content .right .text {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.about .about-content .right .text span {
+.sobre .sobre-content .right .text span {
   color:  rgb(12, 23, 116);
 }
 
-.about .about-content .right a {
+.sobre .sobre-content .right a {
   display: inline-block;
   background:  rgb(12, 23, 116);
   color: #fff;
@@ -277,30 +277,30 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.about .about-content .right a:hover {
+.sobre .sobre-content .right a:hover {
   color:  rgb(12, 23, 116);
   background: none;
 }
 
 
-.services,
+.servicos,
 .teams {
   color: #fff;
   background: #111;
 }
 
-.services .title::before,
+.servicos .title::before,
 .teams .title::before {
   background: #fff;
 }
 
-.services .title::after,
+.servicos .title::after,
 .teams .title::after {
   background: #111;
   content: "";
 }
 
-.services .serv-content .card {
+.servicos .servico-conteudo .card {
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
@@ -310,29 +310,29 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover {
+.servicos .servico-conteudo .card:hover {
   background: black;
 }
 
-.services .serv-content .card .box {
+.servicos .servico-conteudo .card .box {
   transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover .box {
+.servicos .servico-conteudo .card:hover .box {
   transform: scale(1.05);
 }
 
-.services .serv-content .card i {
+.servicos .servico-conteudo .card i {
   font-size: 50px;
   color:  rgb(12, 23, 116);
   transition: color 0.3s ease;
 }
 
-.services .serv-content .card:hover i {
+.servicos .servico-conteudo .card:hover i {
   color: #fff;
 }
 
-.services .serv-content .card .text {
+.servicos .servico-conteudo .card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
@@ -448,7 +448,7 @@ footer span a:hover {
 
 /* responsive media query start */
 @media (max-width: 1104px) {
-  .about .about-content .left img {
+  .sobre .sobre-content .left img {
     height: 350px;
     width: 350px;
   }
@@ -513,21 +513,21 @@ footer span a:hover {
     max-width: 930px;
   }
 
-  .about .about-content .column {
+  .sobre .sobre-content .column {
     width: 100%;
   }
 
-  .about .about-content .left {
+  .sobre .sobre-content .left {
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
   }
 
-  .about .about-content .right {
+  .sobre .sobre-content .right {
     flex: 100%;
   }
 
-  .services .serv-content .card {
+  .servicos .servico-conteudo .card {
     width: calc(50% - 10px);
     margin-bottom: 20px;
   }
@@ -541,7 +541,6 @@ footer span a:hover {
 
 .skill {
   display: flex;
-  flex-direction:  row;
   align-items: center; 
   justify-content: center;
   background-color: #f4f4f4; 
@@ -560,7 +559,7 @@ footer span a:hover {
 
 .skill i {
   font-size: 2.5rem; 
-  color: #333; 
+  color: #0e0909; 
   margin-bottom: 10px; 
 }
 
@@ -587,7 +586,7 @@ footer span a:hover {
     font-size: 20px;
   }
 
-  .services .serv-content .card {
+  .servicos .servico-conteudo .card {
     width: 100%;
   }
 }
@@ -603,7 +602,7 @@ footer span a:hover {
 }
 
 
-.buttons {
+.botoes {
   display: inline-block;
   background:  rgb(12, 23, 116);
   color: #fff;
@@ -643,7 +642,7 @@ background-color:  rgb(12, 23, 116);
     font-size: 27px;
   }
 
-  .about .about-content .right .text,
+  .sobre .sobre-conteudo .right .text,
   .skills .skills-content .left .text {
     font-size: 19px;
   }
@@ -678,7 +677,7 @@ background-color:  rgb(12, 23, 116);
     line-height: 38px;}
   
   @media (max-width: 1200px) {
-  .buttons, .btn {
+  .botoes, .btn {
     font-size: 1.2em;
     padding: 0.8em 2em;
   }
