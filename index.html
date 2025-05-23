@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Wesley</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#0c1774',
+            },
+          },
+        },
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-white shadow z-50">
+      <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        <a href="https://wesley.rf.gd/" class="text-2xl font-bold text-primary">W<span class="text-black">J</span></a>
+        <nav class="hidden md:flex gap-6">
+          <a href="#home" class="hover:text-primary">Home</a>
+          <a href="#sobre" class="hover:text-primary">Sobre Mim</a>
+          <a href="#servicos" class="hover:text-primary">Projetos</a>
+          <a href="#skills" class="hover:text-primary">Skills</a>
+          <a href="#contato" class="hover:text-primary">Contato</a>
+        </nav>
+        <button class="md:hidden text-2xl text-primary">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="h-screen flex items-center justify-center bg-gray-100 pt-20">
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-5xl font-semibold mb-2">Olá, Meu nome é Wesley</h1>
+        <h2 class="text-xl sm:text-2xl text-primary mb-4">Sou um <span class="font-bold">Desenvolvedor Web</span></h2>
+        <a href="https://wa.me/3298560219" target="_blank" class="inline-block bg-primary text-white px-6 py-2 rounded hover:bg-black transition">Contate-me</a>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-20 bg-white">
+      <div class="max-w-5xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold text-center text-primary mb-10">Sobre Mim</h2>
+        <p class="text-lg leading-relaxed text-center">
+        Sou desenvolvedor web e crio aplicações modernas, rápidas e funcionais, focadas nas necessidades reais do seu comércio ou empresa. Meu objetivo é entregar soluções de alto desempenho, com excelente usabilidade, durabilidade e um visual profissional. Estou aqui para transformar ideias em sistemas eficientes e acessíveis.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="servicos" class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold text-center text-primary mb-10">Meus Projetos</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Projeto exemplo -->
+          <div class="bg-white shadow rounded-lg p-6">
+            <h3 class="text-xl font-semibold mb-2">Site para Hamburgueria</h3>
+            <p class="mb-4">Desenvolvi um site profissional para uma hamburgueria, com foco em destacar seus produtos e promoções.</p>
+            <a href="https://devwjr.github.io/site-hamburgueria/" target="_blank" class="text-primary font-medium hover:underline">Preview</a>
+          </div>
+           <!-- Projeto exemplo -->
+          <div class="bg-white shadow rounded-lg p-6">
+            <h3 class="text-xl font-semibold mb-2">Sistema de agendamento para barbearia</h3>
+            <p class="mb-4">Desenvolvi um sistema de agendamento de clientes para uma barbearia local</p>
+            <a href="https://devwjr.github.io/site-hamburgueria/" target="_blank" class="text-primary font-medium hover:underline">Preview</a>
+          </div>
+           <!-- Projeto exemplo -->
+          <div class="bg-white shadow rounded-lg p-6">
+            <h3 class="text-xl font-semibold mb-2">fitmanager</h3>
+            <p class="mb-4">Sistema de gerenciamento web voltado para academias, oferecendo controle total sobre alunos, treinos, pagamentos e administração. </p>
+            <a href="https://devwjr.github.io/site-hamburgueria/" target="_blank" class="text-primary font-medium hover:underline">Preview</a>
+          </div>
+          <!-- Adicione mais cards como esse -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-20 bg-white">
+      <div class="max-w-5xl mx-auto px-6">
+        <h2 class="text-3xl font-semibold text-center text-primary mb-10">Minhas Skills</h2>
+        <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 text-4xl text-primary text-center">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-php"></i>
+          <i class="fas fa-database"></i>
+          <i class="fab fa-laravel"></i>
+          <i class="fab fa-react"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+      <p>
+        &copy; <script>document.write(new Date().getFullYear());</script>
+        Todos os direitos reservados por <a href="#" class="text-secondary">WJ</a>
+      </p>
+    </footer>
+  </body>
+</html>
